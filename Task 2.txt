@@ -1,5 +1,5 @@
 See modular.py for code
-Summary Stastics shows the general info on the dataset
+Summary Statistics shows the general info on the dataset
 Missing_values_percentage shows the graph of missing values by column
 distributions_page 1-3 show the individual graphs for the data columns for user interpretation
 
