@@ -1,0 +1,6 @@
+The idea of causality or causal influence. I explored some aspects that are normally known and tried to prove it with the help of the AI to fill in My
+knowledge gaps. I know a little bit about turbidity from past experience and I understand that it increases with extra "churning" which can be caused
+by rainfall. I used a linear regression using python's DoWhy library to try and validate my suspicion that increased rainfall increased turbity with the 
+dataset. Because other things can affect rainfall and turbidity, like wind or water velocity, those needed to be input into the causal model as well. I
+have never used these tools before so I would need to prove to myself the validity of the output but the AI helped me get a good starting point and 
+get me moving with the data.

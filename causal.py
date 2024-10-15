@@ -30,7 +30,7 @@ df.drop(columns=['datetime_utc'], inplace=True)
 df.dropna(inplace=True)
 
 # Step 4: Define Causal Model using DoWhy
-# Let's test the causal effect of air temperature (atempc) on dissolved oxygen (dox_mgl)
+# Let's test the causal effect of precipitation on turbidity
 model = CausalModel(
     data=df,
     treatment='precp_in',
@@ -59,7 +59,7 @@ print("Causal Estimate: ", causal_estimate.value)
 # Use data_subset_refuter instead of placebo_treatment_refuter
 try:
     refutation = model.refute_estimate(identified_estimand, causal_estimate, method_name="data_subset_refuter")
-    #print(refutation)
+    print(refutation)
 except Exception as e:
     print("Refutation process failed:", e)
 

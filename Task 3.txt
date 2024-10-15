@@ -1,1 +1,6 @@
-With the help of my AI companion, I found some interesting starting points I'd explore with the data. First is the massive amount of missing data from March. 
+With the help of my AI companion, I found some interesting starting points I'd explore with the data. First is the massive amount of missing data from March primarily with turbidity. I'd want to investigate this to see if it was caused by
+an onset of the rainy season (spring showers?) or if it was a faulty sensor. It also means that we might need to apply extra scrutiny to the turbidity values for this year if the sensor was failing. 
+
+I like the heatmap of these features and would use it to delve further into the data by analyzing strong positive and negative correlations. For example, Dissolve oxygen shows a strong negative correlation with temperature but a strong
+negative correlation with ph, wind velocity, and water velocity. The reason I think this is interesting is because temperature obviously increases in the summer but wind likely happens more in the colder months so the DO should be the highest
+in cold months when you have low temp, higher pH (from rain dilution maybe?) and higher wind. I would explore phenomena like this to better understand the data.
