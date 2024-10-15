@@ -1,0 +1,2 @@
+My general coding environment involves VScode, an AI companion of some sort (chatgpt, copilot, github copilot, maybe cursor soon?), github for version control, and whatever python interpreter is needed.
+I've used miniconda and pycharm for various school projects for a VEnv.

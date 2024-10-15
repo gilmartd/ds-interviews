@@ -1,0 +1,8 @@
+See modular.py for code
+Summary Stastics shows the general info on the dataset
+Missing_values_percentage shows the graph of missing values by column
+distributions_page 1-3 show the individual graphs for the data columns for user interpretation
+
+
+
+Of note: I used a winsorization method for the outliers which is why each graph has tall bars at the beginning and end.
